@@ -65,6 +65,7 @@ body{
 
 header,
 .last-news_title,
+.famous-wrapper__title,
 footer{
     background-color: var(--main-color);
 }
@@ -104,6 +105,14 @@ footer{
     font-weight: 600;
 }
 
+.hero__inner,
+.last-news_title,
+.card-inner,
+.famous-wrapper__title,
+.famous-news__image,
+.famous-news__cards{
+    border-radius: 0.625rem;
+}
 
 .main__wrapper{
     display: flex;
@@ -117,6 +126,7 @@ footer{
     flex-grow: 1;
 }
 
+
 .hero__inner{
     height: 396px;
     display: flex;
@@ -124,7 +134,6 @@ footer{
     flex-direction: column;
     background-color: var(--image-box-color);
     padding: clamp(18px,3vw,22px) clamp(17px,3vw,24px);
-    border-radius: 0.625rem;
 }
 
 .hero-slogan,
@@ -138,7 +147,6 @@ footer{
 
 .last-news_title{
     padding: clamp(9px,3vw,12px) clamp(16px,3vw,22px);
-    border-radius: 0.625rem;
     margin: clamp(19px,5vw,24px) 0;
     font-size: clamp(1rem,3vw,1.25rem);
 }
@@ -148,11 +156,11 @@ footer{
     grid-template-columns: auto auto;
     gap: clamp(19px,3vw,24px);
 }
-.card-inner{
-    box-shadow: 0px 10px 20px 0px rgba(34, 60, 80, 0.2);
-    border-radius: 0.625rem;
-}
 
+.card-inner,
+.famous-news__cards{
+    box-shadow: 0px 10px 20px 0px rgba(34, 60, 80, 0.2);
+}
 
 .card-image{
     height: 191px;
@@ -189,6 +197,44 @@ footer{
     font-size: clamp(0.75rem,3vw,0.875rem);
 }
 
+.famous-news__wrapper{
+    display: flex;
+    flex-direction: column;
+    gap: 20px 0;
+}
+
+.famous-news__cards{
+    background-color: var(--white-color);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 0 12px;
+    padding: 13px;
+}
+
+.famous-wrapper__title{
+    margin-bottom: 20px;
+    text-align: center;
+    padding: 12px 0;
+    font-size: clamp(1rem,3vw,1.25rem);
+    color: var(--white-color);
+}
+
+
+.famous-news__image{
+    background-color: var(--image-box-color);
+    width: clamp(64px,50vw,132px);
+    height: clamp(51px,50vw,70px);
+}
+
+
+.famous-card-title{
+    font-size: clamp(0.75rem,3vw,0.875rem);
+}
+
+.famous-card-date{
+    font-size: 12px;
+}
 
 .footer__wrapper{
     display: flex;
@@ -196,4 +242,5 @@ footer{
     align-items: center;
     padding: clamp(9px,3vw,17px);
 }
+
 
