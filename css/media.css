@@ -1,0 +1,9 @@
+@media (max-width:480px){
+    .main__wrapper{
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .cards-wrapper{
+        grid-template-columns: auto;
+    }
+}

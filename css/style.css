@@ -92,7 +92,8 @@ footer{
 .header-brand,
 .list-link,
 .last-news_title,
-.footer__wrapper span{
+.footer__wrapper span,
+.famous-wrapper__title{
     color: var(--white-color);
 }
 
@@ -217,7 +218,7 @@ footer{
     text-align: center;
     padding: 12px 0;
     font-size: clamp(1rem,3vw,1.25rem);
-    color: var(--white-color);
+   
 }
 
 
