@@ -52,7 +52,7 @@
 .container{
     max-width: 1140px;
     margin: 0 auto;
-    padding: 0 1vw;
+    padding: 0 3vw;
 }
 
 html{
@@ -74,7 +74,15 @@ footer{
     display: flex;
     justify-content: space-between;
     align-items: center;
+}
+
+
+.header__wrapper{
     padding: 13px 0;
+}
+
+.nav{
+    display: none;
 }
 
 .nav__list{
@@ -97,9 +105,7 @@ footer{
     color: var(--white-color);
 }
 
-.mobile-search-icon{
-    display: none;
-}
+
 
 .list-link{
     font-size: clamp(0.75rem,3vw,1rem);
@@ -156,6 +162,10 @@ footer{
     display: grid;
     grid-template-columns: auto auto;
     gap: clamp(19px,3vw,24px);
+}
+
+.card-inner{
+    max-width: 360px;
 }
 
 .card-inner,
