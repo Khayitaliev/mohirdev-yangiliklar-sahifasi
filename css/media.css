@@ -4,6 +4,12 @@
     }
 }
 @media (max-width:480px){
+    .nav{
+        display: none;
+    }
+    .mobile-search-icon{
+        display: block;
+    }
     .main__wrapper{
         flex-direction: column;
         align-items: center;

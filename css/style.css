@@ -81,9 +81,7 @@ footer{
     padding: 13px 0;
 }
 
-.nav{
-    display: none;
-}
+
 
 .nav__list{
     display: flex;
@@ -105,11 +103,13 @@ footer{
     color: var(--white-color);
 }
 
-
-
 .list-link{
     font-size: clamp(0.75rem,3vw,1rem);
     font-weight: 600;
+}
+
+.mobile-search-icon{
+    display: none;
 }
 
 .hero__inner,
